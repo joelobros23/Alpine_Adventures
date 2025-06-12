@@ -3,11 +3,92 @@
 <head>
 	<meta charset='UTF-8'>
 	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
-	<title>Alpine_Adventures</title>
+	<title>Alpine Adventures - About Us</title>
 	<script src='https://cdn.tailwindcss.com'></script>
 	<link rel='stylesheet' href='assets/css/style.css'>
 </head>
-<body>
-	<!-- Content for about.html will be generated here -->
+<body class="bg-gray-100 font-sans">
+
+	<!-- Navigation Bar -->
+	<nav class="bg-white shadow-md">
+		<div class="container mx-auto px-4">
+			<div class="flex items-center justify-between py-4">
+				<div class="text-2xl font-bold text-gray-800">
+					Alpine Adventures
+				</div>
+				<div class="space-x-6">
+					<a href="index.html" class="text-gray-600 hover:text-blue-500">Home</a>
+					<a href="tours.html" class="text-gray-600 hover:text-blue-500">Tours</a>
+					<a href="destinations.html" class="text-gray-600 hover:text-blue-500">Destinations</a>
+					<a href="about.html" class="text-blue-500 font-semibold">About</a>
+					<a href="contact.html" class="text-gray-600 hover:text-blue-500">Contact</a>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Main Content -->
+	<main class="container mx-auto mt-8 p-4 bg-white shadow-md rounded-lg">
+
+		<!-- About Us Section -->
+		<section class="mb-8">
+			<h2 class="text-3xl font-semibold text-gray-800 mb-4">About Alpine Adventures</h2>
+			<div class="flex flex-col md:flex-row gap-4">
+				<img src="https://picsum.photos/800/600" alt="Alpine Landscape" class="rounded-lg w-full md:w-1/2">
+				<div class="md:w-1/2">
+					<p class="text-gray-700 leading-relaxed mb-4">
+						Welcome to Alpine Adventures, your premier guide to unforgettable alpine experiences. Founded in 2010 by a team of passionate mountaineers and travel enthusiasts, we've dedicated ourselves to providing exceptional tours and adventures in the world's most breathtaking mountain ranges.
+					</p>
+					<p class="text-gray-700 leading-relaxed mb-4">
+						Our mission is to connect you with the raw beauty and untamed spirit of the alpine environment, while ensuring your safety and comfort. We believe that adventure travel should be both exhilarating and sustainable, which is why we are committed to responsible tourism practices and environmental stewardship.
+					</p>
+					<p class="text-gray-700 leading-relaxed">
+						From thrilling treks to serene scenic tours, we offer a diverse range of itineraries to suit every adventurer's taste. Our experienced guides are experts in their field, equipped with the knowledge and skills to lead you on unforgettable journeys.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Our Team Section -->
+		<section>
+			<h2 class="text-3xl font-semibold text-gray-800 mb-4">Our Team</h2>
+			<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+				<!-- Team Member 1 -->
+				<div class="bg-gray-50 rounded-lg shadow-md p-4">
+					<img src="https://picsum.photos/200/200" alt="Team Member 1" class="rounded-full mx-auto mb-2">
+					<h3 class="text-xl font-semibold text-gray-800 text-center">John Smith</h3>
+					<p class="text-gray-600 text-center">Lead Guide</p>
+					<p class="text-gray-700 text-center">Experienced mountaineer with over 15 years of guiding experience.</p>
+				</div>
+
+				<!-- Team Member 2 -->
+				<div class="bg-gray-50 rounded-lg shadow-md p-4">
+					<img src="https://picsum.photos/200/200" alt="Team Member 2" class="rounded-full mx-auto mb-2">
+					<h3 class="text-xl font-semibold text-gray-800 text-center">Emily Carter</h3>
+					<p class="text-gray-600 text-center">Tour Coordinator</p>
+					<p class="text-gray-700 text-center">Dedicated to crafting unforgettable travel experiences for our clients.</p>
+				</div>
+
+				<!-- Team Member 3 -->
+				<div class="bg-gray-50 rounded-lg shadow-md p-4">
+					<img src="https://picsum.photos/200/200" alt="Team Member 3" class="rounded-full mx-auto mb-2">
+					<h3 class="text-xl font-semibold text-gray-800 text-center">David Lee</h3>
+					<p class="text-gray-600 text-center">Safety Officer</p>
+					<p class="text-gray-700 text-center">Ensuring the safety and well-being of all our adventurers.</p>
+				</div>
+
+			</div>
+		</section>
+
+	</main>
+
+	<!-- Footer -->
+	<footer class="bg-gray-800 text-white py-4 mt-8">
+		<div class="container mx-auto text-center">
+			<p>&copy; 2024 Alpine Adventures. All rights reserved.</p>
+		</div>
+	</footer>
+
 </body>
 </html>
