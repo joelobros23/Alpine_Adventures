@@ -3,11 +3,118 @@
 <head>
 	<meta charset='UTF-8'>
 	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
-	<title>Alpine_Adventures</title>
+	<title>Alpine Adventures - Tours</title>
 	<script src='https://cdn.tailwindcss.com'></script>
 	<link rel='stylesheet' href='assets/css/style.css'>
 </head>
-<body>
-	<!-- Content for tours.html will be generated here -->
+<body class="bg-gray-100">
+	<!-- Navigation Bar -->
+	<nav class="bg-white shadow-md">
+		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+			<div class="flex items-center justify-between h-16">
+				<div class="flex items-center">
+					<a class="text-2xl font-bold text-gray-800" href="index.html">Alpine Adventures</a>
+				</div>
+				<div class="hidden md:block">
+					<div class="ml-10 flex items-baseline space-x-4">
+						<a href="index.html" class="text-gray-600 hover:bg-gray-200 hover:text-gray-800 px-3 py-2 rounded-md text-sm font-medium">Home</a>
+						<a href="tours.html" class="bg-gray-200 text-gray-800 px-3 py-2 rounded-md text-sm font-medium">Tours</a>
+						<a href="destinations.html" class="text-gray-600 hover:bg-gray-200 hover:text-gray-800 px-3 py-2 rounded-md text-sm font-medium">Destinations</a>
+						<a href="about.html" class="text-gray-600 hover:bg-gray-200 hover:text-gray-800 px-3 py-2 rounded-md text-sm font-medium">About</a>
+						<a href="contact.html" class="text-gray-600 hover:bg-gray-200 hover:text-gray-800 px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Tours Section -->
+	<section class="py-12">
+		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+			<h2 class="text-3xl font-extrabold text-gray-900 mb-8 text-center">Our Alpine Tours</h2>
+
+			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+				<!-- Tour Card 1 -->
+				<div class="bg-white shadow-md rounded-lg overflow-hidden">
+					<img class="w-full h-56 object-cover" src="https://picsum.photos/800/600" alt="Tour 1">
+					<div class="p-6">
+						<h3 class="text-xl font-semibold text-gray-800 mb-2">Mont Blanc Ascent</h3>
+						<p class="text-gray-600 text-sm mb-4">Conquer the highest peak in the Alps! This challenging tour requires excellent physical condition and mountaineering experience. Experience breathtaking views from the summit.</p>
+						<div class="flex items-center justify-between">
+							<span class="text-lg font-bold text-gray-900">$2,999</span>
+							<a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Book Now</a>
+						</div>
+					</div>
+				</div>
+
+				<!-- Tour Card 2 -->
+				<div class="bg-white shadow-md rounded-lg overflow-hidden">
+					<img class="w-full h-56 object-cover" src="https://picsum.photos/800/601" alt="Tour 2">
+					<div class="p-6">
+						<h3 class="text-xl font-semibold text-gray-800 mb-2">Swiss Alps Hiking Tour</h3>
+						<p class="text-gray-600 text-sm mb-4">Explore the picturesque landscapes of the Swiss Alps on this guided hiking tour. Suitable for all fitness levels, enjoy stunning scenery and charming alpine villages.</p>
+						<div class="flex items-center justify-between">
+							<span class="text-lg font-bold text-gray-900">$1,499</span>
+							<a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Book Now</a>
+						</div>
+					</div>
+				</div>
+
+				<!-- Tour Card 3 -->
+				<div class="bg-white shadow-md rounded-lg overflow-hidden">
+					<img class="w-full h-56 object-cover" src="https://picsum.photos/800/602" alt="Tour 3">
+					<div class="p-6">
+						<h3 class="text-xl font-semibold text-gray-800 mb-2">Italian Dolomites Via Ferrata</h3>
+						<p class="text-gray-600 text-sm mb-4">Experience the thrill of Via Ferrata climbing in the stunning Dolomites. This assisted climbing route offers a unique adventure with incredible views.</p>
+						<div class="flex items-center justify-between">
+							<span class="text-lg font-bold text-gray-900">$1,999</span>
+							<a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Book Now</a>
+						</div>
+					</div>
+				</div>
+
+				<!-- Tour Card 4 -->
+				<div class="bg-white shadow-md rounded-lg overflow-hidden">
+					<img class="w-full h-56 object-cover" src="https://picsum.photos/800/603" alt="Tour 4">
+					<div class="p-6">
+						<h3 class="text-xl font-semibold text-gray-800 mb-2">Austrian Alps Ski Touring</h3>
+						<p class="text-gray-600 text-sm mb-4">Discover the backcountry of the Austrian Alps on this ski touring adventure. Experience untouched powder and stunning winter landscapes.</p>
+						<div class="flex items-center justify-between">
+							<span class="text-lg font-bold text-gray-900">$2,499</span>
+							<a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Book Now</a>
+						</div>
+					</div>
+				</div>
+
+				<!-- Tour Card 5 -->
+				<div class="bg-white shadow-md rounded-lg overflow-hidden">
+					<img class="w-full h-56 object-cover" src="https://picsum.photos/800/604" alt="Tour 5">
+					<div class="p-6">
+						<h3 class="text-xl font-semibold text-gray-800 mb-2">French Alps Ice Climbing</h3>
+						<p class="text-gray-600 text-sm mb-4">Challenge yourself with ice climbing in the French Alps. This thrilling experience is suitable for beginners with proper instruction.</p>
+						<div class="flex items-center justify-between">
+							<span class="text-lg font-bold text-gray-900">$1,799</span>
+							<a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Book Now</a>
+						</div>
+					</div>
+				</div>
+
+				<!-- Tour Card 6 -->
+				<div class="bg-white shadow-md rounded-lg overflow-hidden">
+					<img class="w-full h-56 object-cover" src="https://picsum.photos/800/605" alt="Tour 6">
+					<div class="p-6">
+						<h3 class="text-xl font-semibold text-gray-800 mb-2">Slovenian Alps Trekking</h3>
+						<p class="text-gray-600 text-sm mb-4">Embark on a scenic trekking adventure through the unspoiled beauty of the Slovenian Alps. Discover hidden gems and experience local culture.</p>
+						<div class="flex items-center justify-between">
+							<span class="text-lg font-bold text-gray-900">$1,299</span>
+							<a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Book Now</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
 </body>
 </html>
