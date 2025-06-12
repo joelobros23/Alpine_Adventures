@@ -3,11 +3,89 @@
 <head>
 	<meta charset='UTF-8'>
 	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
-	<title>Alpine_Adventures</title>
+	<title>Alpine Adventures - Contact</title>
 	<script src='https://cdn.tailwindcss.com'></script>
 	<link rel='stylesheet' href='assets/css/style.css'>
 </head>
-<body>
-	<!-- Content for contact.html will be generated here -->
+<body class="bg-gray-100">
+	<nav class="bg-white shadow-md">
+		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+			<div class="flex items-center justify-between h-16">
+				<div class="flex items-center">
+					<a href="index.html" class="text-2xl font-bold text-gray-800">Alpine Adventures</a>
+				</div>
+				<div class="hidden md:block">
+					<div class="ml-10 flex items-baseline space-x-4">
+						<a href="index.html" class="text-gray-600 hover:bg-gray-200 hover:text-gray-800 px-3 py-2 rounded-md text-sm font-medium">Home</a>
+						<a href="tours.html" class="text-gray-600 hover:bg-gray-200 hover:text-gray-800 px-3 py-2 rounded-md text-sm font-medium">Tours</a>
+						<a href="destinations.html" class="text-gray-600 hover:bg-gray-200 hover:text-gray-800 px-3 py-2 rounded-md text-sm font-medium">Destinations</a>
+						<a href="about.html" class="text-gray-600 hover:bg-gray-200 hover:text-gray-800 px-3 py-2 rounded-md text-sm font-medium">About</a>
+						<a href="contact.html" class="bg-gray-200 text-gray-800 px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<header class="bg-gradient-to-r from-green-400 to-blue-500 text-white py-20">
+		<div class="container mx-auto text-center">
+			<h1 class="text-5xl font-bold mb-4">Contact Us</h1>
+			<p class="text-xl">We'd love to hear from you! Reach out with any questions or inquiries.</p>
+		</div>
+	</header>
+
+	<section class="py-12">
+		<div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+			<div>
+				<h2 class="text-3xl font-semibold mb-4 text-gray-800">Get in Touch</h2>
+				<form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+					<div class="mb-4">
+						<label class="block text-gray-700 text-sm font-bold mb-2" for="name">Name</label>
+						<input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Your Name">
+					</div>
+					<div class="mb-4">
+						<label class="block text-gray-700 text-sm font-bold mb-2" for="email">Email</label>
+						<input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Your Email">
+					</div>
+					<div class="mb-4">
+						<label class="block text-gray-700 text-sm font-bold mb-2" for="message">Message</label>
+						<textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" rows="5" placeholder="Your Message"></textarea>
+					</div>
+					<div class="flex items-center justify-between">
+						<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
+							Send Message
+						</button>
+					</div>
+				</form>
+			</div>
+
+			<div>
+				<h2 class="text-3xl font-semibold mb-4 text-gray-800">Contact Information</h2>
+				<div class="mb-6">
+					<h3 class="text-xl font-medium mb-2 text-gray-700">Address</h3>
+					<p class="text-gray-600">123 Mountain View Road</p>
+					<p class="text-gray-600">Alpine Village, CO 80000</p>
+				</div>
+				<div class="mb-6">
+					<h3 class="text-xl font-medium mb-2 text-gray-700">Phone</h3>
+					<p class="text-gray-600">555-123-4567</p>
+				</div>
+				<div>
+					<h3 class="text-xl font-medium mb-2 text-gray-700">Social Media</h3>
+					<div class="flex space-x-4">
+						<a href="#" class="text-blue-500 hover:text-blue-700"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.666 9.151 8.437 9.879v-6.988h-2.54v-2.891h2.54V9.797c0-2.476 1.486-3.875 3.616-3.875 1.045 0 1.944.078 2.216.113v2.59h-1.512c-1.227 0-1.482.614-1.482 1.503v1.967h2.821l-.458 2.891h-2.363v6.988C18.334 21.151 22 16.991 22 12z" clip-rule="evenodd" /></svg></a>
+						<a href="#" class="text-blue-400 hover:text-blue-600"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.547 18.491c-1.047 0-1.74.705-1.74 1.576 0 .906.672 1.631 1.74 1.631 1.054 0 1.747-.725 1.747-1.631 0-.871-.693-1.576-1.747-1.576zm9.171-7.475l-.442.044c.392.52.629 1.177.629 1.88 0 2.607-2.107 4.714-4.714 4.714-2.607 0-4.714-2.107-4.714-4.714 0-2.607 2.107-4.714 4.714-4.714 1.26 0 2.408.51 3.257 1.333l.058-.435c-.051-1.244-.938-2.296-2.157-2.503l-.092-.017c-.685-.114-1.128-.655-1.128-1.332 0-.752.559-1.344 1.316-1.344.634 0 1.142.44 1.276 1.072l.02.103c.566.154 1.089.43 1.517.804.585.497 1.086 1.115 1.458 1.812zm1.054-2.798c-.719-.749-1.679-1.345-2.744-1.712l-.044-.017c-.13-.045-.263-.075-.4-.091l-.062-.006c-.08-.01-.161-.014-.242-.014-2.896 0-5.25 2.354-5.25 5.25 0 2.896 2.354 5.25 5.25 5.25 2.896 0 5.25-2.354 5.25-5.25 0-1.308-.5-2.506-1.343-3.452zM12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0z"/></svg></a>
+						<a href="#" class="text-pink-500 hover:text-pink-700"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 7a5 5 0 110 10 5 5 0 010-10zm0 2a3 3 0 100 6 3 3 0 000-6zm11.732 4a.75.75 0 01-.75-.75v-1.5a.75.75 0 011.5 0v1.5a.75.75 0 01-.75.75zM17.657 5.343a.75.75 0 01-.75-.75h-1.5a.75.75 0 010 1.5h1.5a.75.75 0 01.75-.75zM16.243 16.957a.75.75 0 01-.75.75h-1.5a.75.75 0 010-1.5h1.5a.75.75 0 01.75.75zM5.343 6.343a.75.75 0 01-.75-.75v-1.5a.75.75 0 011.5 0v1.5a.75.75 0 01-.75.75zM6.343 17.657a.75.75 0 01-.75.75h-1.5a.75.75 0 010-1.5h1.5a.75.75 0 01.75.75zM16.957 17.657a.75.75 0 01-.75-.75l-1.061-1.06a.75.75 0 011.06-1.061l1.06 1.06a.75.75 0 01-.31.94zM6.343 6.343a.75.75 0 01-.75-.75l-1.061-1.06a.75.75 0 011.06-1.061l1.06 1.06a.75.75 0 01-.31.94zM5.657 16.957a.75.75 0 01-.75.75l-1.06-1.06a.75.75 0 011.061-1.06l1.06 1.06a.75.75 0 01-.311.94zM17.657 5.343a.75.75 0 01-.75-.75l-1.06-1.06a.75.75 0 011.061-1.06l1.06 1.06a.75.75 0 01-.311.94z" clip-rule="evenodd" /></svg></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="bg-gray-800 text-white py-8">
+		<div class="container mx-auto text-center">
+			<p>&copy; 2023 Alpine Adventures. All rights reserved.</p>
+		</div>
+	</footer>
 </body>
 </html>
